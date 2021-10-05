@@ -15,7 +15,7 @@ export default function RandomSelector(props) {
   return (
     <div className="back" id="root">
       <div className="centered">
-        <h1 className="cardStyle" style={{backgroundColor:"#d6f5d6", color:"#626258"}}>Random Country Card</h1>
+        <h1 className="col cardStyle" style={{backgroundColor:"#d6f5d6", color:"#626258", }}>Random Country Card</h1>
         <br />
 
         <h2>Total number of cards: {rowList.length}</h2>

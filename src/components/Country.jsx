@@ -4,7 +4,7 @@ export default function Country(props) {
   return (
     <div className="col cardStyle">
       <h1>{props.item.name.common}</h1>
-      <h2>Capital: {props.item.capital}</h2>
+      <h2>Capital: {props.item.capital[0]}</h2>
 
       <br />
       <p> <b>Languages:</b> {Object.values(props.item?.languages).join(", ")}</p>
